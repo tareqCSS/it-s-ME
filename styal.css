@@ -11,7 +11,7 @@ a {
 .hero {
     width: 100%;
     height: 100vh;
-    background: url(IMG_20230310_081613.jpg);
+    background: url(Contact.png);
     background-size: cover;
 }
 nav {
@@ -51,22 +51,22 @@ nav ul li a:hover:after {
 }
 .btn {
     color: #fff;
-    font-size: 16px;
+    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    padding: 16px 40px;
-    border-radius: 500px;
+    padding: 13px 30px;
+    border-radius: 450px;
     display: inline-block;
-    font-weight: 500;
+    font-weight: 450;
     transition: all 0.4s ease-in-out;
     background-size: 152% 100%;
-    background: #fd4766;
+    background: #760d91;
     border: 2px solid #fd4766;
 }
 .btn:hover {
     background: transparent;
-    border-color: #fd4766;
-    color: #fd4766;
+    border-color: #2459a8;
+    color: #10359b;
 }
 .content {
     position: absolute;
