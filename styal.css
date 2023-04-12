@@ -464,9 +464,7 @@ span {
         flex-direction: column-reverse;
     }
 
-    .about img {
-        width: 70vw margin-top: 4rem;
-    }
+
 
     .services h2 {
         margin-bottom: 3rem;
@@ -479,7 +477,7 @@ span {
     .portfolio-container {
         grid-template-columns: repeat(2, 1fr);
     }
-}
+
 
 @media (max-width: 617px) {
     .portfolio-container {
