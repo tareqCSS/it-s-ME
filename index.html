@@ -1,34 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <title>Personal Portfolio Website</title>
-        <!----CSS link----->
-        <link rel="stylesheet" href="styals.css">
-    </head>
-    <body>
-        <div class="hero">
-            <nav>
-                <img src="yy.png" class="logo" />
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-                <a href="#" class="btn">Resume</a>
-            </nav>
-            <div class="content">
-                <span class="title">Freelance Web Developer</span>
-                <h1>Hello, I’m <span>Tareq</span></h1>
-                <p>
-                    I’m working on a professional, visually sophisticated and
-                    technologically proficient, responsive and multi-functional
-                    React Components.
-                </p>
-                <a href="#" class="btn">bangladesh</a>
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+
+
+
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+   <link rel="stylesheet" href="styal.css">
+   <link rel="stylesheet" href="java.js">
+</head>
+
+<body>
+   <header class="header">
+      <a href="#" class="logo">Tarek Mahmud</a>
+      <i class='bx bx-menu' id="menu-icon"></i>
+
+      <nav class="navber">
+         <a href="# home" class="active">Home</a>
+         <a href="# about">About</a>
+         <a href="# services">Services</a>
+         <a href="# portfolio">Portfolio</a>
+         <a href="# contact">Contact</a>
+      </nav>
+   </header>
+
+
+   <!-- home dection design -->
+   <section class="home" id="home">
+      <div class="home-content">
+         <h3>Hello, It's a Me</h3>
+         <h1>Tarek Mahmud</h1>
+         <h3>And I'm a <span>Frontend Developer</span></h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A iure eius totam laudantium deserunt impedit esse
+            aliquid?</p>
+         <div class="social-media">
+            <a href="https://www.facebook.com/profile.php?id=100091512847212"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+         </div>
+         <a href="#" class="btn">Downlode CV</a>
+      </div>
+
+      <div class="home-img">
+         <img src="IMG-20220626-WA0002_prev_ui.png" alt="">
+      </div>
+   </section>
+
+   <!-- about section design -->
+   <section class="about" id="about">
+      <div class="about-img">
+         <img src="IMG-20220626-WA0002_prev_ui.png" alt="">
+      </div>
+
+      <div class="about-content">
+         <h2 class="heading">About <span>Me</span></h2>
+         <h3>Frontent Developer</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor at culpa voluptatem animi libero corporis
+            enim quasi rerum, ad laboriosam illo iusto ducimus totam tempora nobis molestiae. Sint dolores et obcaecati
+            est dolorum necessitatibus at, eos expedita deleniti magnam atque ab officiis accusantium, error soluta
+            delectus.</p>
+         <a href="#" class="btn">Read More</a>
+      </div>
+   </section>
+
+   <!-- services section design -->
+   <section class="services" id="services">
+      <h2 class="heading">Our <span>Services</span></h2>
+
+      <div class="services-container">
+         <div class="services-box">
+            <i class='bx bx-code-alt'></i>
+            <h3>We Development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam praesentium dicta, ipsum debitis earum
+               sunt ipsa! Aliquid labore maxime nemo.</p>
+            <a href="#" class="btn">Read More</a>
+         </div>
+         <div class="services-box">
+            <i class='bx bxs-paint'></i>
+            <h3>Graphics Design</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam praesentium dicta, ipsum debitis earum
+               sunt ipsa! Aliquid labore maxime nemo.</p>
+            <a href="#" class="btn">Read More</a>
+         </div>
+         <div class="services-box">
+            <i class='bx bx-bar-chart-alt'></i>
+            <h3>Digital Maketing</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam praesentium dicta, ipsum debitis earum
+               sunt ipsa! Aliquid labore maxime nemo.</p>
+            <a href="#" class="btn">Read More</a>
+         </div>
+      </div>
+
+
+
+   </section>
+
+   <!-- portfolio section design  -->
+   <section class="potfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Porject</span></h2>
+   
+      <div class="portfolio-container">
+         <div class="portfolio-box">
+            <img src="1.png" alt="">
+            <div class="portfolio-layer">
+               <h4>Web Design</h4>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quo?</p>
+               <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+         </div>
+
+         <div class="portfolio-box">
+            <img src="1.png" alt="">
+            <div class="portfolio-layer">
+               <h4>Web Design</h4>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quo?</p>
+               <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+         </div>
+
+         <div class="portfolio-box">
+            <img src="1.png" alt="">
+            <div class="portfolio-layer">
+               <h4>Web Design</h4>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quo?</p>
+               <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+         </div>
+
+         <div class="portfolio-box">
+            <img src="2.png" alt="">
+            <div class="portfolio-layer">
+               <h4>Web Design</h4>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quo?</p>
+               <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+         </div>
+
+         <div class="portfolio-box">
+            <img src="5.png" alt="">
+            <div class="portfolio-layer">
+               <h4>Web Design</h4>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quo?</p>
+               <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+         </div>
+         <div class="portfolio-box">
+            <img src="5.png" alt="">
+            <div class="portfolio-layer">
+               <h4>Web Design</h4>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quo?</p>
+               <a href="#"><i class='bx bx-link-external'></i></a>
             </div>
          </div>
       </div>
@@ -52,27 +179,30 @@
       </form>
    </section>
 
-     <!-- footerdesign  -->
+    <!-- footerdesign  -->
 
     <footer class="footer">
         <div class="footer-text">
-            <p>copyright &copy; 2023 by Codehal | All Right Reserved</p>
-        </div>
+        <p>copyright &copy; 2023 by Codehal | All Right Reserved</p>
+     </div>
 
-        <div class="footer-iconTop">
-            <a href="#home"><i class='bx bx-chevron-up'></i></a>
-        </div>
-    </footer>
+     <div class="footer-iconTop">
+      <a href="#home"><i class='bx bx-chevron-up'></i></a>
+   </div>
+  </footer>
 
 
-    <!-- scroll reveal  -->
 
-    <script src="https://unpkg.com/scrollreveal"></script>
+   <script src="java.js"></script>
 
-    <!-- type ruselt  -->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <!-- dfasd  -->
-    <script src="java.js"></script>
+
+
+
+
+
+
+
+
 </body>
 
 </html>
